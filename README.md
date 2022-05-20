@@ -1,14 +1,14 @@
 # bc-a-wk1
-##Week 1 assignment for web development bootcamp
+## Week 1 assignment for web development bootcamp
 
-##Horiseon Marketing Agency: Code Refactoring for Accessibility
+## Horiseon Marketing Agency: Code Refactoring for Accessibility
 
-###User Story:
+### User Story:
   AS A marketing agency
   I WANT a codebase that follows accessibility standards
   SO THAT our own site is optimized for search engines
   
-###Outcome:
+### Outcome:
   The client's code has been refactored to:
   - Utilise semantic HTML elements
   - Apply alt attributes to images and icons
@@ -16,7 +16,7 @@
   - Assign an appropriate title element
   - Consolidate and comment HTML files to ensure readability
 
-###The code presented in this repository is deemed to satisfy the following acceptance criteria:
+### The code presented in this repository is deemed to satisfy the following acceptance criteria:
   GIVEN a webpage meets accessibility standards
   WHEN I view the source code
   THEN I find semantic HTML elements
