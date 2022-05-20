@@ -1,6 +1,4 @@
-/***************/
 /*Global Styles*/
-/***************/
     * {
         box-sizing: border-box;
         padding: 0;
@@ -8,17 +6,21 @@
     }
 /*--------------*/
 
-
-/******************/
 /*Full Page Styles*/
-/******************/
     body {
         background-color: #d9dcd6;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #ffffff;
     }
 
     h1 {
         display: inline-block;
         font-size: 48px;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
     }
 
     h3 {
@@ -35,20 +37,16 @@
     }
 
     a {
-        color: #ffffff;
         text-decoration: none;
+        color: #ffffff
     }
 /*----------------*/
 
-
-/*****************************/
 /*Navigation Specific Styling*/
-/*****************************/
     nav {
         padding: 20px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         background-color: #2a607c;
-        color: #ffffff;
     }
 
     #seo {
@@ -59,7 +57,6 @@
         padding-top: 15px;
         margin-right: 20px;
         float: right;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 20px;
         list-style-type: none;
     }
@@ -70,10 +67,7 @@
     }
 /*----------------------------*/
 
-
-/*************************/
 /*Header Specific Styling*/
-/*************************/
     header {
         height: 800px;
         width: 100%;
@@ -84,14 +78,22 @@
     }
 /*-----------------------*/
 
-
-/*******************************/
 /*Main Section Specific Styling*/
-/*******************************/
     section {
         width: 75%;
         display: inline-block;
         margin-left: 20px;
+    }
+
+    section img {
+        max-height: 200px;
+    }
+
+    section article {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        background-color: #0072bb;
     }
 
     .float-left {
@@ -103,69 +105,9 @@
         float: right;
         margin-left: 25px;
     }
-
-    /*Search Engine Optimisation*/
-        #search-engine-optimization {
-            margin-bottom: 20px;
-            padding: 50px;
-            height: 300px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: #0072bb;
-            color: #ffffff;
-        }
-
-        #search-engine-optimization img {
-            max-height: 200px;
-        }
-
-        #search-engine-optimization h2 {
-            margin-bottom: 20px;
-            font-size: 36px;
-        }
-
-    /*Online Reputation Management*/
-        #online-reputation-management {
-            margin-bottom: 20px;
-            padding: 50px;
-            height: 300px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: #0072bb;
-            color: #ffffff;
-        }
-
-        #online-reputation-management img {
-            max-height: 200px;
-        }
-
-        #online-reputation-management h2 {
-            margin-bottom: 20px;
-            font-size: 36px;
-        }
-
-    /*Social Media Marketing*/
-        #social-media-marketing {
-            margin-bottom: 20px;
-            padding: 50px;
-            height: 300px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: #0072bb;
-            color: #ffffff;
-        }
-
-        #social-media-marketing img {
-            max-height: 200px;
-        }
-
-        #social-media-marketing h2 {
-            margin-bottom: 20px;
-            font-size: 36px;
-        }
 /*----------------------------*/
 
-
-/**************************/
 /*Sidebar Specific Styling*/
-/**************************/
     aside {
         margin-right: 20px;
         padding: 20px;
@@ -173,13 +115,11 @@
         float: right;
         width: 20%;
         height: 100%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-color: #2589bd;
     }
 
     aside article {
         margin-bottom: 32px;
-        color: #ffffff;
     }
 
     aside img {
@@ -187,15 +127,14 @@
         margin: 10px auto;
         max-width: 150px;
     }
+/*------------------------*/
 
-
-
-/*************************/
 /*Footer Specific Styling*/
-/*************************/
     footer {
+        color: black;
         padding: 30px;
         clear: both;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
     }
+/*-----------------------*/
