@@ -49,10 +49,6 @@
         background-color: #2a607c;
     }
 
-    #seo {
-        color: #d9dcd6;
-    }
-
     nav ul {
         padding-top: 15px;
         margin-right: 20px;
@@ -64,6 +60,10 @@
     nav li {
         display: inline-block;
         margin-left: 25px;
+    }
+
+    #seo {
+        color: #d9dcd6;
     }
 /*----------------------------*/
 
