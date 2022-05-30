@@ -30,7 +30,7 @@
 
 ### Website
 Use the following link to view the final rendered website:
-https://cskicko.github.io/bc-a-wk1/
+https://cskicko.github.io/Horiseon-Refactor/
 
 A screenshot of the final product is provided below:
 ![cskicko github io_bc-a-wk1_](https://user-images.githubusercontent.com/84214056/169467763-bd7234d3-4ccd-4f0c-ae4e-a8970361d5d1.png)
